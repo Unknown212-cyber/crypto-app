@@ -1,0 +1,60 @@
+/* General Body Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #0e1117;
+  color: #e1e4eb;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styling */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #161b22;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* Header Styling */
+.crypto-heading {
+  font-size: 2.5rem;
+  color: #ffce4f;
+  margin-bottom: 20px;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Info Paragraph */
+.crypto-info {
+  font-size: 1.2rem;
+  color: #adb5bd;
+  margin-bottom: 30px;
+}
+
+/* Chart Container */
+.chart-container {
+  background: #1f2937;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(255, 206, 79, 0.4);
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  color: #8b94a5;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #ffce4f;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ffab00;
+}
